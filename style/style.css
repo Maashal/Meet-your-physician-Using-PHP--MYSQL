@@ -1,0 +1,453 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+	margin:0;
+	padding:0;
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
+}
+#loginh1{
+	margin:50px;
+	font-size:50px;
+	color:black;
+}
+.mainbox{
+	margin:0;
+	width:400px;
+	height:auto;
+	background:transparent;
+	color:red;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%, -50%);
+	border:2px solid blue;
+}
+h1{
+	margin-top:20px;
+	text-align:center;
+	color:black;
+}
+.mainbox p{
+	margin-left:20px;
+	font-weight:bold;
+	color:black;
+	font-size:20px;
+}
+.mainbox input{
+	width:80%;
+	margin-left:10px;
+	margin-bottom:5px;
+}
+.mainbox input[type="text"],input[type="password"]
+{
+	border:none;
+	border-bottom:2px solid black;
+	background:transparent;
+	outline:none;
+	height:25px;
+	color:black;
+	font-size:20px;
+	margin-left:20px;
+}
+.mainbox select{
+	border:none;
+	border-bottom:2px solid black;
+	background:transparent;
+	outline:none;
+	height:60px;
+	color:#fff;
+	font-size:20px;
+	margin-left:20px;
+	width:80%;
+	color:black;
+		margin-top:20px;
+}
+.mainbox option{
+	background:transparent;
+	color:black;
+	font-size:20px;
+	font-weight: bold;
+}
+.registerPlayer{
+	margin-bottom:5px;
+}
+.registerPlayer option{
+	background-color:none;
+	color:red;
+}
+.mainbox button{
+	
+	margin-left:230px;
+	margin-top:20px;
+	border:none;
+	outline:none;
+	height:50px;
+	width:150px;
+	background-color: orange;
+	color:black;
+	font-size:18px;
+	font-size:22px;
+}
+.mainbox button:hover{
+	cursor:pointer;
+	
+	color:black;
+}
+#logoutbtn{
+	margin-bottom:20px;
+	margin-right:80px;
+	margin-top:20px;
+	border:none;
+	outline:none;
+	height:30px;
+	width:100px;
+	background-color:;
+	color:black;
+	font-size:18px;
+	font-size:22px;
+	float: right;
+	}
+#logoutbtn:hover{
+	cursor:pointer;
+	background:red;
+	color:black;
+}	
+.mainbox a{
+	padding:10px;
+	text-decoration:none;
+	font-size:25px;
+	line-height:15px;
+	color:green;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+.mainbox a:hover{
+	color:red;
+	padding:5px;
+}
+#registrationbox{
+	margin:0;
+	width:500px;
+	height:600px;
+	background:transparent;
+	color:#fff;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%, -50%);
+	box-sizing:border-box;
+	border-radius: 20px 20px 20px 20px;
+}
+#registrationbox input{
+	width:60%;
+	margin-left:80px;
+	margin-top:25px;
+	height:50px;
+}
+#registrationbox button{
+	margin-bottom:20px;
+	margin-left:250px;
+	margin-top:20px;
+	border:none;
+	outline:none;
+	height:50px;
+	width:200px;
+	background-color: #4CAF50;
+	color:black;
+	font-size:18px;
+	font-size:22px;
+}
+#registrationbox button:hover{
+	background:white;
+	color:black;
+	padding:8px;
+}
+#registrationbox img{
+	margin-left:40%;
+	padding:0;
+	width:20%;
+	align-item:center;
+	border-radius:50%;
+	top:-50%;
+	transform:translate(0,-50%);
+}
+
+.header{
+	width:100%;
+	padding:10px;
+	height:70px;
+	background-color:yellow;
+	margin-bottom:1px;
+
+}
+.header i{
+	font-size:40px;
+	color:black;
+	font-weight: bold;
+
+	margin:10px 20px;
+}
+.header label{
+
+	margin-left:150px;
+	color:black;
+}
+.header a{
+	text-decoration:none;
+	color:red;
+}
+.header a:hover{
+	color:green;
+}
+.wraper{
+	width:100%;
+}
+.sidebar{
+	float:left;
+	padding:-2px 0;
+	background-color:green;
+	width:16%;
+	height:500px;
+	position:relative;	
+}
+.sidebar i{
+	margin-top:20px;
+	font-size:30px;
+	color:white;
+}
+.sidebar label{
+	color:red;
+	padding-bottom:5px;
+	border-bottom:3px solid white;
+}
+.sidebar ul{
+	list-style:none;
+	margin-top:25px;
+	padding-left:35px;
+}
+.sidebar ul li{
+	padding-top:20px;
+}
+.sidebar a{
+	text-decoration:none;
+	margin-bottom:20px;
+	color:#ECF0F1;
+	font-size:20px;
+	
+}
+.sidebar a:hover{
+	color:black;
+	font-size:30px;
+	border-bottom:2px solid white;
+}
+.centerbar{
+	position:absolute;
+	margin-left:220px;
+	margin-top:0;
+	width:80%;
+	height:600px;
+}
+.player{
+	margin:10px 10px;
+	float:left;
+	padding:0;
+	width:23%;
+	height:300px;
+	overflow:hidden;
+}
+.picplayer{
+	height:240px;
+}
+.picplayer img{
+	width:100%;
+}
+.playername{
+
+	
+	border:2px solid black;
+}
+.playername h3{
+	text-align:center;
+	margin-top:2px;
+	color:black;
+}
+#mainprofile{
+	margin-left:50px;
+	padding:0;
+	width:80%;
+	float:left;
+}
+.main{
+	margin:0;
+	padding:0;
+	width:60%;
+	float:left;
+}
+.main h3{
+	margin-top:20px;
+	color:black;
+}
+#playerid{
+	float:left;
+}
+#playerid h1{
+	
+}
+.addplayerbox{
+	width:60%;
+	height:auto;
+	color:#fff;
+	margin-left:10%;
+	box-sizing:border-box;
+}
+#playerprofile{
+	background:transparent;
+	margin-top:10px;
+}
+#playerprofile label{
+	margin-left:10px;
+}
+#playerprofile input[type="text"],input[type="password"]{
+	
+	border:none;
+	background:transparent;
+	outline:none;
+	height:20px;
+	color:black;
+	font-size:15px;
+	margin-left:20px;
+	height:40px;
+}
+#playerprofile select{
+	border: red;
+	
+	background:transparent;
+	outline:none;
+	height:35px;
+	color:black;
+	font-size:16px;
+	margin-left:20px;
+	width:50%;
+}
+.labeldiv{
+	width: 250px;
+    font-style: sans-serif;
+    color: red;
+    float: left;
+    margin-right: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+	font-size:20px;
+	
+}
+.inputdiv{
+	margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+	color:black;
+}
+.inputdiv {
+	border-bottom:1.7px solid black;
+	border-right: 1px solid black;
+}
+#playerprofile input{
+	width:50%;
+	margin-left:10px;
+	margin-bottom:1px;
+}
+
+#playerprofile button{
+	margin-bottom:20px;
+	margin-left:380px;
+	margin-top:20px;
+	border:none;
+	outline:none;
+	height:50px;
+	width:200px;
+	background-color: #4CAF50;
+	color:black;
+	font-size:18px;
+	font-size:22px;
+}
+#playerprofile button:hover{
+	cursor:pointer;
+	background:yellow;
+	color:black;
+}
+#playerprofile h1{
+	font-size:22px;
+	color:black;
+	text-align:center;
+	margin-top:20px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+#playerprofile a{
+	text-decoration:none;
+	color:black;
+}
+#playerPhoto{
+		border:1px solid black;
+		height:250px;
+		width:200px;
+		float:right;
+		margin-top:20px;
+		margin-right:15%;
+}
+#photo{
+		height:250px;
+		width:200px;
+}
+.searchbar{
+	float:right;
+	margin-top:30px;
+	margin-right:50px;
+}
+#searchText{
+	margin:0 10px;
+	Padding:5px 10px;
+	font-size:20px;
+
+}
+#searchbtn{
+	margin:0 10px;
+	background-color: red;
+	Padding:5px 10px;
+	font-size:20px;
+	border-radius: 30px 30px 30px 30px;
+}
+#searchbtn:hover{
+	background-color:red;
+	padding-right:18px;
+	color:white;
+	font-weight:bold;
+}
+.adminHomePage table{
+	width: 1000px;
+	background:transparent;
+
+	margin:30px auto;
+}
+.adminHomePage tr{
+	border:1px solid red;
+
+}
+.adminHomePage th{
+	text-align: left;
+	color:black;
+	border-bottom:1px solid black;
+	border-right:.90px solid black;
+	font-size:21px;
+}
+
+.adminHomePage td{
+	color:black;
+	border-bottom:1px solid black;
+	border-right:.90px solid black;
+	padding:7px;
+	font-size:20px;
+}
+
+
+
